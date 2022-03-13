@@ -28,6 +28,7 @@ class _LoginState extends State<Login> {
       setState(() {
         _canCheckBiometric = canCheckBiometric;
       });
+      print(_canCheckBiometric);
     }
   }
 
@@ -40,6 +41,7 @@ class _LoginState extends State<Login> {
     }
     setState(() {
       _availableBiometrics = availableBiometric;
+      print(_availableBiometrics);
     });
   }
 
